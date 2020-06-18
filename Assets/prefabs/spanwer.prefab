@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 491866820722021395}
   - component: {fileID: 7738952257752192716}
   - component: {fileID: 9005772084214690110}
+  - component: {fileID: -6470682942945715065}
   m_Layer: 0
   m_Name: spanwer
   m_TagString: Untagged
@@ -94,3 +95,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &-6470682942945715065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7131860120600112480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29005d6fc6c11254e8b3e87479a581f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1251588329439562440, guid: 971f37fc79ebf1b4abea2ef910b73511,
+    type: 3}
+  spawnRateMin: 0.5
+  spawnRateMax: 3
